@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Laser
+  - Enemy
+  - OperationTabble
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Processing
+  - Water
+  - UI
+  - Light
+  - OperationTable
+  - Trash
+  - ClickOnly
+  - Destroy
+  - Tool
+  - Mouse
+  - ForChip
+  - Chips
+  - ClawIgnore
+  - Claw
+  - xray
+  - xrayignore
+  - ClothTarget
+  - MouseTarget
+  - Mouse
+  - Cloth
+  - OtherComponent
+  - IpadTarget
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
