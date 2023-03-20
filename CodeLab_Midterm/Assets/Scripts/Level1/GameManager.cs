@@ -1,4 +1,5 @@
 using System;
+using System;
 using System.IO;
 using TMPro;
 using Unity.VisualScripting;
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
     public TextMeshPro scoreText;
     
     static float timer = 0;
+    static int dayNumber = 279;
 
     public static int NumberCount
     {
@@ -41,6 +43,8 @@ public class GameManager : MonoBehaviour
 
             if (timer > 30)
             {
+                dayNumber++;
+                File.WriteAllText(FILE_PATH_DAY, "" + dayNumber);
                 SceneManager.LoadScene("Level3");
             }
         }
@@ -55,7 +59,6 @@ public class GameManager : MonoBehaviour
 
 
     static int highScore = 1;
-    private int dayNumber = 279;
     private bool resetDate = false;
 
     public static int HighScore
